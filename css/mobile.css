@@ -1,0 +1,110 @@
+@media (max-width: 320px) {
+  .showcase-TravelNow {
+    padding-top: 80px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+    font-size: 20px !important;
+  }
+
+  nav {
+    display: none;
+  }
+
+  #destiny-img,
+  #journey-img {
+    width: 100%;
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    padding: 0 18.75px;
+  }
+
+  .enjoy {
+    background: url("../images/section-bg.jpg") no-repeat center/center/cover;
+    background-size: cover;
+    margin: 0 auto;
+    padding: 0 10px;
+  }
+
+  .title {
+    font-size: 50px;
+  }
+
+  .subtitle {
+    font-size: 40px;
+  }
+
+  .img-wrapper {
+    order: 2;
+  }
+
+  .info-div {
+    order: 1;
+  }
+
+  .cardsText2,
+  hr,
+  .container > .info-div > a {
+    display: none;
+  }
+
+  #hotels-img,
+  .cardsText1 {
+    display: block;
+    width: 100%;
+  }
+
+  .cardsText1,
+  .info-div > h3 {
+    margin: 0;
+  }
+
+  .subtitles {
+    font-size: 32px;
+    padding-bottom: 10px;
+  }
+
+  .info-div > p {
+    font-size: 20px;
+    padding-bottom: 15px;
+  }
+
+  .footerMenu {
+    grid-template-columns: repeat(2, 1fr);
+    box-sizing: border-box;
+    text-align: center;
+    padding: 0 30px;
+    width: 100%;
+  }
+
+  .footerSection > ul {
+    padding: 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .showcase-TravelNow {
+    padding-top: 270px;
+  }
+
+  .title {
+    font-size: 100px;
+    margin: 0 auto;
+  }
+  .showcase-TravelNow > h3 {
+    font-size: 44px;
+    margin: 0 auto;
+  }
+  .showcase-TravelNow > p {
+    font-size: 30px;
+  }
+}

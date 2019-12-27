@@ -1,0 +1,237 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Sans&display=swap");
+
+body {
+  font-family: "PT Sans", sans-serif;
+  background-color: #252529;
+  margin: 0;
+  color: #fff;
+  line-height: 1.6;
+  overflow-x: hidden !important;
+}
+
+nav {
+  height: 40px;
+  width: 100%;
+  background-color: #146f72;
+  color: #eee;
+  position: fixed;
+}
+
+nav a {
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+  padding: 10px 0;
+  color: #eee;
+  text-decoration: none;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  float: left;
+}
+
+nav a:hover {
+  background-color: #23a8ad;
+}
+
+nav #openup {
+  display: none;
+}
+
+#showcase {
+  background: url("../images/showcase.jpg") no-repeat center/cover;
+  height: 100vh;
+}
+
+.showcase-TravelNow {
+  margin: 0 auto;
+  padding-top: 150px;
+  text-align: center;
+  width: 90%;
+  color: #fff !important;
+}
+
+.title {
+  font-size: 100px;
+  margin: 0 auto;
+}
+
+.icon-plane,
+.icon-departure,
+.icon-hotel,
+.icon-right {
+  color: #146f72;
+}
+.showcase-TravelNow > h3 {
+  font-size: 32px;
+}
+
+.showcase-TravelNow > p {
+  font-size: 20px;
+}
+
+.showcase-TravelNow .showcase-text1 {
+  margin-bottom: 0;
+}
+
+.showcase-TravelNow .showcase-text2 {
+  padding: 0, auto;
+  margin: 0;
+}
+
+.travel {
+  padding-top: 5px;
+}
+
+.travel,
+.journey-content {
+  margin: 0 auto;
+  width: 90%;
+  text-align: center;
+}
+
+.subtitle {
+  font-size: 50px;
+  margin: 0 auto;
+}
+
+.travel .travel-text1,
+.journey-content p {
+  font-size: 20px;
+}
+
+.journey {
+  background: #eee;
+  width: 100%;
+}
+
+.journey-content {
+  color: #252529;
+}
+
+.journey-content > h2 {
+  font-size: 32px;
+  padding-top: 37px;
+}
+
+.enjoy {
+  background: url("../images/section-bg.jpg") no-repeat bottom/cover;
+  background-size: 100%;
+  padding: 160px 0;
+  text-align: center;
+}
+
+.enjoy .enjoy-content {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.enjoy-content p {
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+.hotels {
+  width: 100%;
+  background: #eee;
+  padding: 32px 0;
+}
+
+#destiny-img {
+  width: 1000px;
+  padding-top: 15px;
+}
+
+#journey-img {
+  width: 900px;
+  padding: 15px 0;
+}
+
+.container {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  text-align: left;
+  padding: 0 48px;
+}
+
+.info-div {
+  font-size: 17px;
+  color: #333;
+}
+
+.hotels img {
+  width: 100%;
+}
+
+.info-div > a {
+  text-decoration: none;
+  color: #103063;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.footerMenu {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 16px;
+  padding: 32px 80px;
+  text-align: left;
+  width: 90%;
+  background: #252529;
+}
+
+.footerSection a,
+.footerContent a {
+  text-decoration: none;
+}
+
+.footerSection ul {
+  list-style: none;
+}
+
+.footerSection .semiTitle a {
+  font-size: 18px;
+  color: #eee;
+  border-bottom: 1px solid #444;
+  margin-bottom: 16px;
+  display: list-item;
+}
+
+.footerContent a {
+  font-size: 16px;
+  color: #ccc;
+}
+
+.footerContent a:first-child {
+  padding-top: 16px;
+}
+
+.footerEnd {
+  background: #333;
+  text-align: center;
+  font-size: 18px;
+  padding: 8px;
+}
+
+.btn {
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  background: #146f72;
+  border-radius: 10px;
+}
+.btn:hover {
+  background: #23a8ad;
+}
